@@ -9,7 +9,7 @@ export default function Home() {
       <section id="home" className="min-h-[80vh] flex flex-col justify-center items-center text-center px-4 relative overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-charcoal-800 to-background z-[-1]"></div>
         <h1 className="text-4xl md:text-7xl font-bold font-serif mb-6 animate-fade-in-up">
-          손재경 <span className="bg-clip-text text-transparent bg-gradient-to-r from-gold-300 via-gold-500 to-gold-300 bg-300% animate-gradient">짱짱맨</span>
+          손재경 <span className="text-red-600">짱짱짱맨</span>
         </h1>
         <p className="text-lg md:text-xl text-gray-400 max-w-2xl mb-10 font-light">
           I craft high-end web experiences with a focus on aesthetics, performance, and user interaction.
