@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ProductButton from "@/components/ProductButton";
 import Link from "next/link";
 import { ArrowRight, Code, Layout, Smartphone } from "lucide-react";
 
@@ -12,12 +13,10 @@ export default function Home() {
           손재경 <span className="text-red-600">짱짱짱맨</span>
         </h1>
         <p className="text-lg md:text-xl text-gray-400 max-w-2xl mb-10 font-light">
-          I craft high-end web experiences with a focus on aesthetics, performance, and user interaction.
+          Hello!!
         </p>
-        <div className="flex gap-4">
-          <Link href="#projects" className="px-8 py-3 bg-gold-500 text-charcoal-900 font-bold rounded-full hover:bg-gold-400 transition-all transform hover:scale-105 shadow-lg shadow-gold-500/20">
-            View Work
-          </Link>
+        <div className="flex gap-4 items-center">
+          <ProductButton />
           <Link href="#contact" className="px-8 py-3 border border-gold-600 text-gold-500 rounded-full hover:bg-gold-600/10 transition-all">
             Contact Me
           </Link>
